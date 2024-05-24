@@ -13,7 +13,7 @@ const thoughtSchema = new Schema({
         get: (timestamp) => new Date(timestamp).toLocaleString(),
     },
     
-    // username (The user that created this thought) - String  - Required  - reactions (These are like replies)
+    // username (The user that created this thought) - String  - Required  - reactions (These are like replies) - Array of nested documents created with the reactionSchema
     username: {
         type: String,
         required: true,
@@ -27,8 +27,9 @@ const thoughtSchema = new Schema({
     },
 });
 
-// Array of nested documents created with the reactionSchema
-thoughtSchema.virtual('reaction').get(function () {
+
+//Create a virtual called reactionCount that retrieves the length of the thought's reactions array field on query.
+thoughtSchema.virtual('reactionCount').get(function () {
     return this.reactions.length;
 });
 
