@@ -14,3 +14,8 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 virtuals:
     https://mongoosejs.com/docs/tutorials/virtuals.html
+
+Date getter:
+    https://stackoverflow.com/questions/70724966/how-to-use-getter-or-setter-with-mongoose-timestamps
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
+
