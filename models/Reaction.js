@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { Schema, Types } = mongoose;
+const { Schema, model, Types } = mongoose;
 
 const reactionSchema = new Schema({
     // reactionId - Use Mongoose's ObjectId data type - Default value is set to a new ObjectId 
@@ -31,5 +31,7 @@ const reactionSchema = new Schema({
     },
   });
   
-  module.exports = reactionSchema;
+  const Reaction = model('Reaction', reactionSchema);
+
+  module.exports = Reaction;
   

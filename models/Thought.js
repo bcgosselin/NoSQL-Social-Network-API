@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const { Schema, model } = mongoose;
+const reactionSchema = require('./Reaction');
 
 const thoughtSchema = new Schema({
     // thoughtText - String - Required - Must be between 1 and 280 characters - createdAt
@@ -21,7 +22,7 @@ const thoughtSchema = new Schema({
         type: String,
         required: true,
     },
-    reactions: [reactionSchema],
+    reactions: [{ type: Schema.Types.ObjectId, ref: 'Reaction' }],
 },
   {
     toJSON: {
