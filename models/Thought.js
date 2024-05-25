@@ -1,3 +1,6 @@
+const mongoose = require('mongoose');
+const { Schema, model } = mongoose;
+
 const thoughtSchema = new Schema({
     // thoughtText - String - Required - Must be between 1 and 280 characters - createdAt
     thoughtText: {
