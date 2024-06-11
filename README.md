@@ -1,16 +1,27 @@
 # Social-Network-API-M18
 API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list // Utilizes Express.js for routing, a MongoDB database, and the Mongoose ODM.
 
+https://github.com/bcgosselin/Social-Network-API-M18
 
-GIVEN a social network API
-WHEN I enter the command to invoke the application
-THEN my server is started and the Mongoose models are synced to the MongoDB database
-WHEN I open API GET routes in Insomnia for users and thoughts
-THEN the data for each of these routes is displayed in a formatted JSON
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
-THEN I am able to successfully create, update, and delete users and thoughts in my database
-WHEN I test API POST and DELETE routes in Insomnia
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+## Description
+This project is Robert Gosselin's eighteenth bootcamp challenge. This project was created to showcase his skills and aptitude using only text based instructions. This application was hand-written utilizing credited resources [Credits](#credits). The goal of this challenge was to develop and engineer a functioning social media API that allows users to share their thoughts, react to friends’ thoughts, and create a friend list. Everything included was apart of an ongoing bootcamp to develop and hone Full Stack Web Development skills.
+
+## Table of Contents
+- [Usage](#usage)
+- [License](#license)
+- [Credits](#credits)
+- [Questions](#questions)
+
+
+## Usage
+please view attached video link for usage instructions:
+
+https://app.screencastify.com/v3/watch/l8br9iZdxh1MZJxWoqRt
+
+## License
+[![License Badge](https://img.shields.io/badge/MIT-yellow)]()
+
+## Credits
 
 virtuals:
     https://mongoosejs.com/docs/tutorials/virtuals.html
@@ -18,4 +29,8 @@ virtuals:
 Date getter:
     https://stackoverflow.com/questions/70724966/how-to-use-getter-or-setter-with-mongoose-timestamps
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString
+
+## Questions
+For questions about the project, please contact [bcgosselin](https://github.com/bcgosselin) at bcgosselin@gmail.com.
+
 
