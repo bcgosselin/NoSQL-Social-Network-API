@@ -1,7 +1,7 @@
-# Social-Network-API-M18
+# NoSQL-Social-Network-API
 Developed API for a social network web application using Express.js and MongoDB. Implemented CRUD operations for users, thoughts, reactions, and friend lists. Tested API endpoints using Insomnia and documented with a walkthrough video.
 
-https://github.com/bcgosselin/Social-Network-API-M18
+https://github.com/bcgosselin/NoSQL-Social-Network-API
 
 ## Description
 This project is Robert Gosselin's eighteenth bootcamp challenge. This project was created to showcase his skills and aptitude using only text based instructions. This application was hand-written utilizing credited resources [Credits](#credits). The goal of this challenge was to develop and engineer a functioning social media API that allows users to share their thoughts, react to friends’ thoughts, and create a friend list. Everything included was apart of an ongoing bootcamp to develop and hone Full Stack Web Development skills.
